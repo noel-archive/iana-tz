@@ -21,4 +21,4 @@
  * SOFTWARE.
  */
 
-rootProject.name = "iana-tz-db"
+rootProject.name = "iana-tz"

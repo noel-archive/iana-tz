@@ -26,5 +26,5 @@ package org.noelware.iana.gradle
 import org.gradle.api.JavaVersion
 import dev.floofy.utils.gradle.*
 
-val VERSION = Version(1, 0, 0, 0, ReleaseType.None)
+val VERSION = Version(0, 1, 0, 0, ReleaseType.None)
 val JAVA_VERSION = JavaVersion.VERSION_17

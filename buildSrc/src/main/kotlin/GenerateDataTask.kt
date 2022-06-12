@@ -94,18 +94,18 @@ abstract class GenerateDataTask: DefaultTask() {
 
             objects.add("""
             |IANATimezone(
-            |  name = "$name",
-            |  alternativeName = "$altName",
-            |  group = listOf(${group.joinToString(", ") { "\"$it\"" } }),
-            |  continentCode = "$continentCode",
-            |  continentName = "$continentName",
-            |  countryCode = "$countryCode",
-            |  countryName = "$countryName",
-            |  mainCities = listOf(
-            |     ${if (mainCities.size == 1) "\"${mainCities.first()}\"" else mainCities.joinToString(", ") { "\n\"$it\"" }}
-            |  ),
-            |  rawOffsetInMinutes = $rawOffsetInMinutes,
-            |  abbreviation = "$abbreviation"
+            |    name = "$name",
+            |    alternativeName = "$altName",
+            |    group = listOf(${group.joinToString(", ") { "\"$it\"" } }),
+            |    continentCode = "$continentCode",
+            |    continentName = "$continentName",
+            |    countryCode = "$countryCode",
+            |    countryName = "$countryName",
+            |    mainCities = listOf(
+            |       ${if (mainCities.size == 1) "\"${mainCities.first()}\"" else mainCities.mapIndexed { i, p -> if (i == 0) "\"$p\"" else "\n\"$p\"" }.joinToString(", ") }
+            |    ),
+            |    rawOffsetInMinutes = $rawOffsetInMinutes,
+            |    abbreviation = "$abbreviation"
             |)
             """.trimMargin())
         }
@@ -115,48 +115,57 @@ abstract class GenerateDataTask: DefaultTask() {
             .initializer("listOf(%L).distinct()", objects.joinToString(", ") { "\n$it" })
 
         val americanTimezones = PropertySpec.builder("AMERICAS", LIST.parameterizedBy(ClassName("org.noelware.iana", "IANATimezone")))
+            .addKdoc("Returns all the timezones that are prefixed with `America/`")
             .initializer("TIMEZONES.filter { it.name.startsWith(%S) }", "America/")
             .build()
 
         val pacificTimezones = PropertySpec.builder("PACIFIC", LIST.parameterizedBy(ClassName("org.noelware.iana", "IANATimezone")))
+            .addKdoc("Returns all the timezones that are prefixed with `Pacific/`")
             .initializer("TIMEZONES.filter { it.name.startsWith(%S) }", "Pacific/")
             .build()
 
         val africanTimezones = PropertySpec.builder("AFRICA", LIST.parameterizedBy(ClassName("org.noelware.iana", "IANATimezone")))
+            .addKdoc("Returns all the timezones that are prefixed with `Africa/`")
             .initializer("TIMEZONES.filter { it.name.startsWith(%S) }", "Africa/")
             .build()
 
         val atlanticTimzones = PropertySpec.builder("ATLANTIC", LIST.parameterizedBy(ClassName("org.noelware.iana", "IANATimezone")))
+            .addKdoc("Returns all the timezones that are prefixed with `Atlantic/`")
             .initializer("TIMEZONES.filter { it.name.startsWith(%S) }", "Atlantic/")
             .build()
 
         val europeanTimezones = PropertySpec.builder("EUROPEAN", LIST.parameterizedBy(ClassName("org.noelware.iana", "IANATimezone")))
+            .addKdoc("Returns all the timezones that are prefixed with `Europe/`")
             .initializer("TIMEZONES.filter { it.name.startsWith(%S) }", "Europe/")
             .build()
 
         val asianTimezones = PropertySpec.builder("ASIA", LIST.parameterizedBy(ClassName("org.noelware.iana", "IANATimezone")))
+            .addKdoc("Returns all the timezones that are prefixed with `Asia/`")
             .initializer("TIMEZONES.filter { it.name.startsWith(%S) }", "Asia/")
             .build()
 
         val indianTimezones = PropertySpec.builder("INDIAN", LIST.parameterizedBy(ClassName("org.noelware.iana", "IANATimezone")))
+            .addKdoc("Returns all the timezones that are prefixed with `Indian/`")
             .initializer("TIMEZONES.filter { it.name.startsWith(%S) }", "Indian/")
             .build()
 
-        val antarticaTimezones = PropertySpec.builder("ANTARTICA", LIST.parameterizedBy(ClassName("org.noelware.iana", "IANATimezone")))
-            .initializer("TIMEZONES.filter { it.name.startsWith(%S) }", "Antartica/")
+        val antarcticaTimezones = PropertySpec.builder("ANTARCTICA", LIST.parameterizedBy(ClassName("org.noelware.iana", "IANATimezone")))
+            .addKdoc("Returns all the timezones that are prefixed with `Antarctica/`")
+            .initializer("TIMEZONES.filter { it.name.startsWith(%S) }", "Antarctica/")
             .build()
 
         val australiaTimezones = PropertySpec.builder("AUSTRALIA", LIST.parameterizedBy(ClassName("org.noelware.iana", "IANATimezone")))
+            .addKdoc("Returns all the timezones that are prefixed with `Australia/`")
             .initializer("TIMEZONES.filter { it.name.startsWith(%S) }", "Australia/")
             .build()
 
         val suppress = listOf("ObjectPropertyName", "ClassName")
         val format = "%S, ".repeat(suppress.size).trimEnd(',')
-        val fileSpec = FileSpec.builder("org.noelware.iana", "GeneratedIanaTimezoneDatabase")
+        val fileSpec = FileSpec.builder("org.noelware.iana", "GeneratedTimezones")
             .addAnnotation(
                 AnnotationSpec
                     .builder(JvmName::class)
-                    .addMember("%S", "GeneratedIanaTimezoneDatabaseKt")
+                    .addMember("%S", "GeneratedTimezonesKt")
                     .build()
             )
             .addAnnotation(
@@ -165,15 +174,15 @@ abstract class GenerateDataTask: DefaultTask() {
                     .addMember(format, *suppress.toTypedArray())
                     .build()
             )
-            .addFileComment("Copyright (c) 2021-%L Noel <cutie@floofy.dev>\n", LocalDateTime.now().year)
-            .addFileComment("DO NOT EDIT THIS FILE! This was generated by the `./gradlew :generateTzdb` task!")
+            .addFileComment("Copyright (c) 2021-%L Noel <cutie@floofy.dev>, Noelware <team@noelware.org>\n", LocalDateTime.now().year)
+            .addFileComment("DO NOT EDIT THIS FILE! This was generated by the `./gradlew :generateTzDb` task!")
             .addImport(ClassName("org.noelware.iana", "IANATimezone"), listOf())
             .addProperty(listOfTimezones.build())
             .addProperty(americanTimezones)
             .addProperty(pacificTimezones)
             .addProperty(asianTimezones)
             .addProperty(europeanTimezones)
-            .addProperty(antarticaTimezones)
+            .addProperty(antarcticaTimezones)
             .addProperty(africanTimezones)
             .addProperty(atlanticTimzones)
             .addProperty(indianTimezones)

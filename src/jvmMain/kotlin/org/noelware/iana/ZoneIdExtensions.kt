@@ -23,9 +23,16 @@
 
 package org.noelware.iana
 
+import java.time.Instant
 import java.time.ZoneId
+import java.time.ZonedDateTime
 
 /**
  * Returns the [ZoneId] object of this [IANA timezone][IANATimezone].
  */
 public fun IANATimezone.toZoneId(): ZoneId = ZoneId.of(this.name)
+
+/**
+ * Returns a [ZonedDateTime] object with a given [timezone][IANATimezone].
+ */
+public fun Instant.withTimezone(tz: IANATimezone): ZonedDateTime = ZonedDateTime.ofInstant(this, tz.toZoneId())

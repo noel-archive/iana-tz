@@ -1,0 +1,29 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:org.noelware.iana////PointingToDeclaration/iana-tz/org.noelware.iana/index.html
+$dokka.location:org.noelware.iana//AFRICA/#/PointingToDeclaration/iana-tz/org.noelware.iana/-a-f-r-i-c-a.html
+$dokka.location:org.noelware.iana//AMERICAS/#/PointingToDeclaration/iana-tz/org.noelware.iana/-a-m-e-r-i-c-a-s.html
+$dokka.location:org.noelware.iana//ANTARCTICA/#/PointingToDeclaration/iana-tz/org.noelware.iana/-a-n-t-a-r-c-t-i-c-a.html
+$dokka.location:org.noelware.iana//ASIA/#/PointingToDeclaration/iana-tz/org.noelware.iana/-a-s-i-a.html
+$dokka.location:org.noelware.iana//ATLANTIC/#/PointingToDeclaration/iana-tz/org.noelware.iana/-a-t-l-a-n-t-i-c.html
+$dokka.location:org.noelware.iana//AUSTRALIA/#/PointingToDeclaration/iana-tz/org.noelware.iana/-a-u-s-t-r-a-l-i-a.html
+$dokka.location:org.noelware.iana//EUROPEAN/#/PointingToDeclaration/iana-tz/org.noelware.iana/-e-u-r-o-p-e-a-n.html
+$dokka.location:org.noelware.iana//INDIAN/#/PointingToDeclaration/iana-tz/org.noelware.iana/-i-n-d-i-a-n.html
+$dokka.location:org.noelware.iana//PACIFIC/#/PointingToDeclaration/iana-tz/org.noelware.iana/-p-a-c-i-f-i-c.html
+$dokka.location:org.noelware.iana//TIMEZONES/#/PointingToDeclaration/iana-tz/org.noelware.iana/-t-i-m-e-z-o-n-e-s.html
+$dokka.location:org.noelware.iana//toZoneId/org.noelware.iana.IANATimezone#/PointingToDeclaration/iana-tz/org.noelware.iana/to-zone-id.html
+$dokka.location:org.noelware.iana//withTimezone/java.time.Instant#org.noelware.iana.IANATimezone/PointingToDeclaration/iana-tz/org.noelware.iana/with-timezone.html
+$dokka.location:org.noelware.iana/IANATimezone///PointingToDeclaration/iana-tz/org.noelware.iana/-i-a-n-a-timezone/index.html
+$dokka.location:org.noelware.iana/IANATimezone/IANATimezone/#kotlin.String#kotlin.String#kotlin.collections.List[kotlin.String]#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.collections.List[kotlin.String]#kotlin.Long#kotlin.String/PointingToDeclaration/iana-tz/org.noelware.iana/-i-a-n-a-timezone/-i-a-n-a-timezone.html
+$dokka.location:org.noelware.iana/IANATimezone/abbreviation/#/PointingToDeclaration/iana-tz/org.noelware.iana/-i-a-n-a-timezone/abbreviation.html
+$dokka.location:org.noelware.iana/IANATimezone/alternativeName/#/PointingToDeclaration/iana-tz/org.noelware.iana/-i-a-n-a-timezone/alternative-name.html
+$dokka.location:org.noelware.iana/IANATimezone/continentCode/#/PointingToDeclaration/iana-tz/org.noelware.iana/-i-a-n-a-timezone/continent-code.html
+$dokka.location:org.noelware.iana/IANATimezone/continentName/#/PointingToDeclaration/iana-tz/org.noelware.iana/-i-a-n-a-timezone/continent-name.html
+$dokka.location:org.noelware.iana/IANATimezone/countryCode/#/PointingToDeclaration/iana-tz/org.noelware.iana/-i-a-n-a-timezone/country-code.html
+$dokka.location:org.noelware.iana/IANATimezone/countryName/#/PointingToDeclaration/iana-tz/org.noelware.iana/-i-a-n-a-timezone/country-name.html
+$dokka.location:org.noelware.iana/IANATimezone/group/#/PointingToDeclaration/iana-tz/org.noelware.iana/-i-a-n-a-timezone/group.html
+$dokka.location:org.noelware.iana/IANATimezone/mainCities/#/PointingToDeclaration/iana-tz/org.noelware.iana/-i-a-n-a-timezone/main-cities.html
+$dokka.location:org.noelware.iana/IANATimezone/name/#/PointingToDeclaration/iana-tz/org.noelware.iana/-i-a-n-a-timezone/name.html
+$dokka.location:org.noelware.iana/IANATimezone/rawOffsetInMinutes/#/PointingToDeclaration/iana-tz/org.noelware.iana/-i-a-n-a-timezone/raw-offset-in-minutes.html
+org.noelware.iana
+

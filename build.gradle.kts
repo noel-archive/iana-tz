@@ -54,20 +54,55 @@ kotlin {
     js(BOTH) {
         browser()
         nodejs()
+
+        compilations.all {
+            packageJson {
+                name = "@noelware/iana-tz"
+                private = false
+
+                customField("publicConfig" to mapOf("access" to true))
+            }
+        }
     }
 
-    macosArm64()
-    linuxX64()
-    mingwX64()
-    macosX64()
-    watchos()
-    tvos()
-    ios()
+    val os = System.getProperty("os.name")
+    val arch = System.getProperty("os.arch")
+
+    when {
+        os.startsWith("Windows") -> {
+            mingwX64("native")
+        }
+
+        os == "Linux" -> {
+            when (arch) {
+                "amd64" -> linuxX64("native")
+                "arm64" -> linuxArm64("native")
+                else -> error("Linux with architecture $arch is not supported.")
+            }
+        }
+
+        os == "Mac OS X" -> {
+            when (arch) {
+                "amd64" -> macosX64("native")
+                "arm64" -> macosArm64("native")
+                else -> error("macOS with architecture $arch is not supported.")
+            }
+        }
+
+        else -> error("Operating system $os is not supported.")
+    }
 
     sourceSets {
-        commonMain {
+        val commonMain by getting {
             kotlin.srcDir("src/commonGenerated")
+            dependencies {
+                api("org.jetbrains.kotlin:kotlin-stdlib-common")
+            }
         }
+
+        val jvmMain by getting
+        val jsMain by getting
+        val nativeMain by getting
     }
 }
 
@@ -87,7 +122,6 @@ tasks {
 
     dokkaHtml {
         outputDirectory by file("$projectDir/docs")
-
         dokkaSourceSets.configureEach {
             sourceLink {
                 localDirectory.set(projectDir.resolve("src/$name/kotlin"))

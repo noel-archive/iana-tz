@@ -19,14 +19,14 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-name: Release snapshot version
+name: Release stable version
 on:
   release:
     types:
       - released
 jobs:
   snapshot-release:
-    name: Release a Snapshot version (JS, JVM, Native[Linux/amd64])
+    name: Release a stable version (JS, JVM, Native[Linux/amd64])
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
@@ -52,7 +52,7 @@ jobs:
           NOELWARE_PUBLISHING_IS_SNAPSHOT: "false"
 
   snapshot-release-win:
-    name: Release a snapshot version (Native[Windows])
+    name: Release a stable version (Native[Windows])
     runs-on: windows-2022
     needs:
       - snapshot-release
@@ -80,7 +80,7 @@ jobs:
           NOELWARE_PUBLISHING_IS_SNAPSHOT: "false"
 
   snapshot-release-macos:
-    name: Release a snapshot version (Native[macOS])
+    name: Release a stable version (Native[macOS])
     runs-on: macos-latest
     needs:
       - snapshot-release
@@ -108,7 +108,7 @@ jobs:
           NOELWARE_PUBLISHING_IS_SNAPSHOT: "false"
 
   snapshot-release-arm:
-    name: Release a snapshot version (Native[Linux/armv8])
+    name: Release a stable version (Native[Linux/armv8])
     runs-on: self-hosted
     needs:
       - snapshot-release
@@ -121,6 +121,7 @@ jobs:
         with:
           distribution: temurin # Eclipse Temurin is <3
           java-version: 17
+          architecture: aarch64
 
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2

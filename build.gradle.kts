@@ -81,7 +81,7 @@ kotlin {
 
         os == "Mac OS X" -> {
             when (arch) {
-                "amd64" -> macosX64("native")
+                "x86_64" -> macosX64("native")
                 "arm64" -> macosArm64("native")
                 else -> error("macOS with architecture $arch is not supported.")
             }

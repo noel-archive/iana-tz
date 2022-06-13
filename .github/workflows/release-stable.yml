@@ -44,9 +44,6 @@ jobs:
       - name: Lets ./gradlew be executable
         run: chmod +x ./gradlew
 
-      - name: Check if project can be compiled
-        run: ./gradlew compileKotlin --no-daemon
-
       - name: Release!
         run: ./gradlew publish -Dorg.gradle.s3.endpoint=${{ secrets.S3_ENDPOINT }}
         env:

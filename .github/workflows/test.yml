@@ -82,4 +82,3 @@ jobs:
 
       - name: Builds the project for any errors
         run: ./gradlew compileKotlinJsIr compileKotlinJsLegacy compileKotlinJvm compileKotlinNative --no-daemon
-

@@ -55,13 +55,11 @@ kotlin {
         browser()
         nodejs()
 
-        compilations.all {
-            packageJson {
-                name = "@noelware/iana-tz"
-                private = false
+        compilations["main"].packageJson {
+            name = "@noelware/iana-tz"
+            private = false
 
-                customField("publicConfig" to mapOf("access" to true))
-            }
+            customField("publicConfig" to mapOf("access" to true))
         }
     }
 

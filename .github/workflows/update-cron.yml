@@ -64,5 +64,5 @@ jobs:
           git config --global committer.email "cutie@floofy.dev"
           
           git add .
-          git commit -m "chore: update documentation"
+          git commit -m "[automated] Update timezone data!"
           git push -u origin master

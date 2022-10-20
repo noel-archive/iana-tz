@@ -382,7 +382,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Guatemala City", 
     "Mixco", 
     "Villa Nueva", 
-    "Petapa"
+    "Cobán"
         ),
         rawOffsetInMinutes = -360,
         abbreviation = "CST"
@@ -416,8 +416,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Mexico City", 
     "Iztapalapa", 
-    "Ecatepec de Morelos", 
-    "Guadalajara"
+    "Puebla", 
+    "Ecatepec de Morelos"
         ),
         rawOffsetInMinutes = -360,
         abbreviation = "CST"
@@ -450,8 +450,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "San Salvador", 
     "Soyapango", 
-    "Santa Ana", 
-    "San Miguel"
+    "San Miguel", 
+    "Santa Ana"
         ),
         rawOffsetInMinutes = -360,
         abbreviation = "CST"
@@ -484,8 +484,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Tegucigalpa", 
     "San Pedro Sula", 
-    "Choloma", 
-    "La Ceiba"
+    "La Ceiba", 
+    "Choloma"
         ),
         rawOffsetInMinutes = -360,
         abbreviation = "CST"
@@ -642,7 +642,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryCode = "KY",
         countryName = "Cayman Islands",
         mainCities = listOf(
-           "George Town"
+           "George Town", 
+    "West Bay"
         ),
         rawOffsetInMinutes = -300,
         abbreviation = "EST"
@@ -730,7 +731,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Port-au-Prince", 
     "Carrefour", 
     "Delmas 73", 
-    "Pétionville"
+    "Port-de-Paix"
         ),
         rawOffsetInMinutes = -300,
         abbreviation = "EST"
@@ -762,8 +763,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryCode = "EC",
         countryName = "Ecuador",
         mainCities = listOf(
-           "Guayaquil", 
-    "Quito", 
+           "Quito", 
+    "Guayaquil", 
     "Cuenca", 
     "Santo Domingo de los Colorados"
         ),
@@ -780,8 +781,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Peru",
         mainCities = listOf(
            "Lima", 
-    "Arequipa", 
     "Callao", 
+    "Arequipa", 
     "Trujillo"
         ),
         rawOffsetInMinutes = -300,
@@ -1532,7 +1533,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
     IANATimezone(
         name = "Africa/Abidjan",
         alternativeName = "Greenwich Mean Time",
-        group = listOf("Africa/Abidjan", "Africa/Timbuktu"),
+        group = listOf("Africa/Abidjan", "Africa/Timbuktu", "Iceland"),
         continentCode = "AF",
         continentName = "Africa",
         countryCode = "CI",
@@ -1667,9 +1668,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Ireland",
         mainCities = listOf(
            "Dublin", 
+    "South Dublin", 
     "Cork", 
-    "Luimneach", 
-    "Gaillimh"
+    "Luimneach"
         ),
         rawOffsetInMinutes = 0,
         abbreviation = "GMT"
@@ -1802,7 +1803,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Reykjavík", 
     "Kópavogur", 
     "Hafnarfjörður", 
-    "Akureyri"
+    "Reykjanesbær"
         ),
         rawOffsetInMinutes = 0,
         abbreviation = "GMT"
@@ -2046,7 +2047,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
     IANATimezone(
         name = "Europe/Berlin",
         alternativeName = "Central European Time",
-        group = listOf("Europe/Berlin", "Europe/Busingen"),
+        group = listOf("Europe/Berlin", "Europe/Busingen", "Atlantic/Jan_Mayen"),
         continentCode = "EU",
         continentName = "Europe",
         countryCode = "DE",
@@ -2088,8 +2089,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Bratislava", 
     "Košice", 
-    "Prešov", 
-    "Nitra"
+    "Nitra", 
+    "Prešov"
         ),
         rawOffsetInMinutes = 60,
         abbreviation = "CET"
@@ -2122,8 +2123,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Budapest", 
     "Debrecen", 
-    "Miskolc", 
-    "Szeged"
+    "Szeged", 
+    "Pécs"
         ),
         rawOffsetInMinutes = 60,
         abbreviation = "CET"
@@ -2170,8 +2171,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Ljubljana", 
     "Maribor", 
-    "Celje", 
-    "Kranj"
+    "Kranj", 
+    "Celje"
         ),
         rawOffsetInMinutes = 60,
         abbreviation = "CET"
@@ -2266,8 +2267,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Paris", 
     "Marseille", 
-    "Lyon", 
-    "Toulouse"
+    "Toulouse", 
+    "Lyon"
         ),
         rawOffsetInMinutes = 60,
         abbreviation = "CET"
@@ -2868,8 +2869,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Maputo", 
     "Matola", 
-    "Beira", 
-    "Nampula"
+    "Nampula", 
+    "Beira"
         ),
         rawOffsetInMinutes = 120,
         abbreviation = "CAT"
@@ -2953,8 +2954,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Bucharest", 
     "Sector 3", 
-    "Sector 6", 
-    "Sector 2"
+    "Iaşi", 
+    "Sector 6"
         ),
         rawOffsetInMinutes = 120,
         abbreviation = "EET"
@@ -3022,7 +3023,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Helsinki", 
     "Espoo", 
     "Tampere", 
-    "Vantaa"
+    "Oulu"
         ),
         rawOffsetInMinutes = 120,
         abbreviation = "EET"
@@ -3045,9 +3046,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         abbreviation = "EET"
     ), 
     IANATimezone(
-        name = "Europe/Kiev",
+        name = "Europe/Kyiv",
         alternativeName = "Eastern European Time",
-        group = listOf("Europe/Kiev", "Europe/Uzhgorod", "Europe/Zaporozhye"),
+        group = listOf("Europe/Kyiv", "Europe/Uzhgorod", "Europe/Zaporozhye", "Europe/Kiev"),
         continentCode = "EU",
         continentName = "Europe",
         countryCode = "UA",
@@ -3056,7 +3057,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Kyiv", 
     "Kharkiv", 
     "Donetsk", 
-    "Odessa"
+    "Odesa"
         ),
         rawOffsetInMinutes = 120,
         abbreviation = "EET"
@@ -3154,8 +3155,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Tripoli", 
     "Benghazi", 
-    "Mişrātah", 
-    "Tarhuna"
+    "Ajdabiya", 
+    "Mişrātah"
         ),
         rawOffsetInMinutes = 120,
         abbreviation = "EET"
@@ -3203,9 +3204,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryCode = "ZA",
         countryName = "South Africa",
         mainCities = listOf(
-           "Cape Town", 
+           "Johannesburg", 
+    "Cape Town", 
     "Durban", 
-    "Johannesburg", 
     "Soweto"
         ),
         rawOffsetInMinutes = 120,
@@ -3375,7 +3376,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Antananarivo", 
     "Toamasina", 
     "Antsirabe", 
-    "Fianarantsoa"
+    "Mahajanga"
         ),
         rawOffsetInMinutes = 180,
         abbreviation = "EAT"
@@ -3506,9 +3507,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Kenya",
         mainCities = listOf(
            "Nairobi", 
+    "Kakamega", 
     "Mombasa", 
-    "Ruiru", 
-    "Kikuyu"
+    "Ruiru"
         ),
         rawOffsetInMinutes = 180,
         abbreviation = "EAT"
@@ -3743,7 +3744,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Samara", 
     "Saratov", 
     "Tolyatti", 
-    "Ulyanovsk"
+    "Izhevsk"
         ),
         rawOffsetInMinutes = 240,
         abbreviation = "SAMT"
@@ -3772,9 +3773,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Afghanistan",
         mainCities = listOf(
            "Kabul", 
-    "Kandahār", 
+    "Herāt", 
     "Mazār-e Sharīf", 
-    "Herāt"
+    "Kandahār"
         ),
         rawOffsetInMinutes = 270,
         abbreviation = "AFT"
@@ -3848,9 +3849,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Tajikistan",
         mainCities = listOf(
            "Dushanbe", 
-    "Khujand", 
-    "Kŭlob", 
-    "Bokhtar"
+    "Isfara", 
+    "Istaravshan", 
+    "Kŭlob"
         ),
         rawOffsetInMinutes = 300,
         abbreviation = "TJT"
@@ -3890,7 +3891,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         abbreviation = "UZT"
     ), 
     IANATimezone(
-        name = "Asia/Qyzylorda",
+        name = "Asia/Aqtobe",
         alternativeName = "West Kazakhstan Time",
         group = listOf("Asia/Aqtau", "Asia/Aqtobe", "Asia/Atyrau", "Asia/Oral", "Asia/Qyzylorda"),
         continentCode = "AS",
@@ -3898,8 +3899,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryCode = "KZ",
         countryName = "Kazakhstan",
         mainCities = listOf(
-           "Kyzylorda", 
-    "Aktobe", 
+           "Aktobe", 
+    "Kyzylorda", 
     "Oral", 
     "Atyrau"
         ),
@@ -4001,8 +4002,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Bhutan",
         mainCities = listOf(
            "Thimphu", 
-    "Punākha", 
     "Tsirang", 
+    "Punākha", 
     "Phuntsholing"
         ),
         rawOffsetInMinutes = 360,
@@ -4035,8 +4036,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Kazakhstan",
         mainCities = listOf(
            "Almaty", 
-    "Karagandy", 
     "Shymkent", 
+    "Karagandy", 
     "Taraz"
         ),
         rawOffsetInMinutes = 360,
@@ -4171,10 +4172,10 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryCode = "MN",
         countryName = "Mongolia",
         mainCities = listOf(
-           "Khovd", 
+           "Ulaangom", 
+    "Khovd", 
     "Ölgii", 
-    "Ulaangom", 
-    "Uliastay"
+    "Altai"
         ),
         rawOffsetInMinutes = 420,
         abbreviation = "HOVT"
@@ -4224,7 +4225,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Phnom Penh", 
     "Takeo", 
-    "Sihanoukville", 
+    "Siem Reap", 
     "Battambang"
         ),
         rawOffsetInMinutes = 420,
@@ -4240,9 +4241,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Laos",
         mainCities = listOf(
            "Vientiane", 
+    "Savannakhet", 
     "Pakse", 
-    "Thakhèk", 
-    "Savannakhet"
+    "Thakhèk"
         ),
         rawOffsetInMinutes = 420,
         abbreviation = "ICT"
@@ -4260,7 +4261,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Novosibirsk", 
     "Krasnoyarsk", 
     "Barnaul", 
-    "Novokuznetsk"
+    "Tomsk"
         ),
         rawOffsetInMinutes = 420,
         abbreviation = "NOVT"
@@ -4276,7 +4277,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Jakarta", 
     "Surabaya", 
-    "Medan", 
+    "Bekasi", 
     "Bandung"
         ),
         rawOffsetInMinutes = 420,
@@ -4327,8 +4328,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Makassar", 
     "Denpasar", 
-    "Banjarmasin", 
-    "Manado"
+    "Samarinda", 
+    "Banjarmasin"
         ),
         rawOffsetInMinutes = 480,
         abbreviation = "WITA"
@@ -4407,10 +4408,10 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryCode = "MY",
         countryName = "Malaysia",
         mainCities = listOf(
-           "Kota Bharu", 
+           "Johor Bahru", 
+    "Kota Bharu", 
     "Kuala Lumpur", 
-    "Klang", 
-    "Kampung Baru Subang"
+    "Petaling Jaya"
         ),
         rawOffsetInMinutes = 480,
         abbreviation = "MYT"
@@ -4425,9 +4426,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Philippines",
         mainCities = listOf(
            "Quezon City", 
+    "Davao", 
     "Manila", 
-    "Caloocan City", 
-    "Budta"
+    "Caloocan City"
         ),
         rawOffsetInMinutes = 480,
         abbreviation = "PHT"
@@ -4443,6 +4444,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Singapore", 
     "Woodlands", 
+    "Geylang", 
     "Marine Parade"
         ),
         rawOffsetInMinutes = 480,
@@ -4477,7 +4479,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Ulan Bator", 
     "Erdenet", 
     "Darhan", 
-    "Hovd"
+    "Mörön"
         ),
         rawOffsetInMinutes = 480,
         abbreviation = "ULAT"
@@ -4522,8 +4524,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryCode = "ID",
         countryName = "Indonesia",
         mainCities = listOf(
-           "Ambon", 
-    "Jayapura", 
+           "Jayapura", 
+    "Ambon", 
     "Sorong", 
     "Ternate"
         ),
@@ -4744,7 +4746,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
     IANATimezone(
         name = "Pacific/Port_Moresby",
         alternativeName = "Papua New Guinea Time",
-        group = listOf("Pacific/Port_Moresby"),
+        group = listOf("Pacific/Port_Moresby", "Pacific/Truk", "Pacific/Yap"),
         continentCode = "OC",
         continentName = "Oceania",
         countryCode = "PG",
@@ -4767,8 +4769,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryCode = "RU",
         countryName = "Russia",
         mainCities = listOf(
-           "Vladivostok", 
-    "Khabarovsk", 
+           "Khabarovsk", 
+    "Vladivostok", 
     "Khabarovsk Vtoroy", 
     "Komsomolsk-on-Amur"
         ),
@@ -4820,7 +4822,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
     IANATimezone(
         name = "Pacific/Kosrae",
         alternativeName = "Kosrae Time",
-        group = listOf("Pacific/Kosrae", "Pacific/Pohnpei", "Pacific/Ponape"),
+        group = listOf("Pacific/Kosrae", "Pacific/Pohnpei"),
         continentCode = "OC",
         continentName = "Oceania",
         countryCode = "FM",
@@ -4882,7 +4884,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
     IANATimezone(
         name = "Pacific/Guadalcanal",
         alternativeName = "Solomon Islands Time",
-        group = listOf("Pacific/Guadalcanal"),
+        group = listOf("Pacific/Guadalcanal", "Pacific/Ponape"),
         continentCode = "OC",
         continentName = "Oceania",
         countryCode = "SB",

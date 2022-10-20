@@ -19,7 +19,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-name: "Update documentation at 00:00"
+name: "Update timezone data at 00:00"
 on:
   workflow_dispatch:
   schedule:

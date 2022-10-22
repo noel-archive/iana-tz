@@ -4460,9 +4460,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Taiwan",
         mainCities = listOf(
            "Taipei", 
+    "Bade", 
     "Kaohsiung", 
-    "Taichung", 
-    "Tainan"
+    "Taichung"
         ),
         rawOffsetInMinutes = 480,
         abbreviation = "TWT"

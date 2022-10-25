@@ -3297,6 +3297,23 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         abbreviation = "AST"
     ), 
     IANATimezone(
+        name = "Asia/Riyadh",
+        alternativeName = "Arabian Time",
+        group = listOf("Asia/Riyadh"),
+        continentCode = "AS",
+        continentName = "Asia",
+        countryCode = "SA",
+        countryName = "Saudi Arabia",
+        mainCities = listOf(
+           "Jeddah", 
+    "Riyadh", 
+    "Mecca", 
+    "Medina"
+        ),
+        rawOffsetInMinutes = 180,
+        abbreviation = "AST"
+    ), 
+    IANATimezone(
         name = "Asia/Bahrain",
         alternativeName = "Arabian Time",
         group = listOf("Asia/Bahrain"),
@@ -3309,23 +3326,6 @@ public val TIMEZONES: List<IANATimezone> = listOf(
     "Al Muharraq", 
     "Ar Rifā‘", 
     "Dār Kulayb"
-        ),
-        rawOffsetInMinutes = 180,
-        abbreviation = "AST"
-    ), 
-    IANATimezone(
-        name = "Asia/Riyadh",
-        alternativeName = "Arabian Time",
-        group = listOf("Asia/Riyadh"),
-        continentCode = "AS",
-        continentName = "Asia",
-        countryCode = "SA",
-        countryName = "Saudi Arabia",
-        mainCities = listOf(
-           "Riyadh", 
-    "Jeddah", 
-    "Mecca", 
-    "Medina"
         ),
         rawOffsetInMinutes = 180,
         abbreviation = "AST"
@@ -3726,8 +3726,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Saint-Denis", 
     "Saint-Paul", 
-    "Saint-Pierre", 
-    "Le Tampon"
+    "Le Tampon", 
+    "Saint-Pierre"
         ),
         rawOffsetInMinutes = 240,
         abbreviation = "RET"
@@ -4445,7 +4445,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Singapore", 
     "Woodlands", 
     "Geylang", 
-    "Marine Parade"
+    "Queenstown Estate"
         ),
         rawOffsetInMinutes = 480,
         abbreviation = "SGT"

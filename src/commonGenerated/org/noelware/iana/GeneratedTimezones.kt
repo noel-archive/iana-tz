@@ -3726,8 +3726,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Muscat", 
     "Seeb", 
-    "Şalālah", 
-    "Bawshar"
+    "Bawshar", 
+    "‘Ibrī"
         ),
         rawOffsetInMinutes = 240,
         abbreviation = "GST"

@@ -4002,9 +4002,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Nepal",
         mainCities = listOf(
            "Kathmandu", 
-    "Pokhara", 
+    "Bharatpur", 
     "Pātan", 
-    "Biratnagar"
+    "Birgañj"
         ),
         rawOffsetInMinutes = 345,
         abbreviation = "NPT"

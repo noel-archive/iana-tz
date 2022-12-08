@@ -3236,9 +3236,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Lesotho",
         mainCities = listOf(
            "Maseru", 
+    "Mohale’s Hoek", 
     "Mafeteng", 
-    "Leribe", 
-    "Maputsoe"
+    "Leribe"
         ),
         rawOffsetInMinutes = 120,
         abbreviation = "SAST"

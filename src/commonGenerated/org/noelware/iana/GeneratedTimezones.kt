@@ -492,8 +492,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
     IANATimezone(
         name = "America/Winnipeg",
         alternativeName = "Central Time",
-        group = listOf("America/Rainy_River", "America/Rankin_Inlet", "America/Resolute",
-        "America/Winnipeg", "Canada/Central"),
+        group = listOf("America/Rankin_Inlet", "America/Resolute", "America/Winnipeg",
+        "Canada/Central", "America/Rainy_River"),
         continentCode = "NA",
         continentName = "North America",
         countryCode = "CA",
@@ -756,9 +756,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
     IANATimezone(
         name = "America/Toronto",
         alternativeName = "Eastern Time",
-        group = listOf("America/Iqaluit", "America/Nipigon", "America/Pangnirtung",
-        "America/Thunder_Bay", "America/Toronto", "Canada/Eastern", "America/Nassau",
-        "America/Montreal"),
+        group = listOf("America/Iqaluit", "America/Toronto", "America/Pangnirtung",
+        "Canada/Eastern", "America/Nassau", "America/Montreal", "America/Nipigon",
+        "America/Thunder_Bay"),
         continentCode = "NA",
         continentName = "North America",
         countryCode = "CA",

@@ -1336,7 +1336,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Buenos Aires", 
     "Córdoba", 
     "Rosario", 
-    "Mendoza"
+    "Mar del Plata"
         ),
         rawOffsetInMinutes = -180,
         abbreviation = "ART"
@@ -1568,7 +1568,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Abidjan", 
     "Abobo", 
     "Bouaké", 
-    "Daloa"
+    "Korhogo"
         ),
         rawOffsetInMinutes = 0,
         abbreviation = "GMT"

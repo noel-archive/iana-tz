@@ -500,9 +500,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Canada",
         mainCities = listOf(
            "Winnipeg", 
-    "Thunder Bay", 
     "Brandon", 
-    "Steinbach"
+    "Steinbach", 
+    "Kenora"
         ),
         rawOffsetInMinutes = -360,
         abbreviation = "CST"

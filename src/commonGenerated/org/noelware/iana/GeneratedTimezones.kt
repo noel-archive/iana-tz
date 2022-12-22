@@ -536,21 +536,21 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         abbreviation = "GALT"
     ), 
     IANATimezone(
-        name = "America/Ojinaga",
-        alternativeName = "Mountain Time",
+        name = "America/Chihuahua",
+        alternativeName = "Mexican Pacific Time",
         group = listOf("America/Chihuahua", "America/Ojinaga"),
         continentCode = "NA",
         continentName = "North America",
         countryCode = "MX",
         countryName = "Mexico",
         mainCities = listOf(
-           "Ciudad Juárez", 
-    "Chihuahua", 
+           "Chihuahua", 
     "Ciudad Delicias", 
-    "Cuauhtémoc"
+    "Cuauhtémoc", 
+    "Parral"
         ),
         rawOffsetInMinutes = -360,
-        abbreviation = "MST"
+        abbreviation = "GMT-7"
     ), 
     IANATimezone(
         name = "America/Rio_Branco",
@@ -1935,7 +1935,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Western Sahara",
         mainCities = listOf(
            "Laayoune", 
-    "Dakhla"
+    "Dakhla", 
+    "Boujdour"
         ),
         rawOffsetInMinutes = 0,
         abbreviation = "WET"

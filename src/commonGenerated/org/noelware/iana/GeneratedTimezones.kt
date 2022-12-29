@@ -2297,8 +2297,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Paris", 
     "Marseille", 
-    "Toulouse", 
-    "Lyon"
+    "Lyon", 
+    "Toulouse"
         ),
         rawOffsetInMinutes = 60,
         abbreviation = "CET"

@@ -231,33 +231,16 @@ public val TIMEZONES: List<IANATimezone> = listOf(
     IANATimezone(
         name = "America/Mazatlan",
         alternativeName = "Mexican Pacific Time",
-        group = listOf("America/Mazatlan", "Mexico/BajaSur"),
+        group = listOf("America/Hermosillo", "America/Mazatlan", "Mexico/BajaSur"),
         continentCode = "NA",
         continentName = "North America",
         countryCode = "MX",
         countryName = "Mexico",
         mainCities = listOf(
            "Culiacán", 
+    "Hermosillo", 
     "Mazatlán", 
-    "Tepic", 
-    "Los Mochis"
-        ),
-        rawOffsetInMinutes = -420,
-        abbreviation = "GMT-7"
-    ), 
-    IANATimezone(
-        name = "America/Hermosillo",
-        alternativeName = "Mexican Pacific Time",
-        group = listOf("America/Hermosillo"),
-        continentCode = "NA",
-        continentName = "North America",
-        countryCode = "MX",
-        countryName = "Mexico",
-        mainCities = listOf(
-           "Hermosillo", 
-    "Ciudad Obregón", 
-    "Nogales", 
-    "San Luis Río Colorado"
+    "Tepic"
         ),
         rawOffsetInMinutes = -420,
         abbreviation = "GMT-7"
@@ -406,7 +389,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
     IANATimezone(
         name = "America/Mexico_City",
         alternativeName = "Central Time",
-        group = listOf("America/Bahia_Banderas", "America/Matamoros", "America/Merida",
+        group = listOf("America/Bahia_Banderas", "America/Chihuahua", "America/Merida",
         "America/Mexico_City", "America/Monterrey", "Mexico/General"),
         continentCode = "NA",
         continentName = "North America",
@@ -417,6 +400,23 @@ public val TIMEZONES: List<IANATimezone> = listOf(
     "Iztapalapa", 
     "Puebla", 
     "Ecatepec de Morelos"
+        ),
+        rawOffsetInMinutes = -360,
+        abbreviation = "CST"
+    ), 
+    IANATimezone(
+        name = "America/Matamoros",
+        alternativeName = "Central Time",
+        group = listOf("America/Matamoros", "America/Ojinaga"),
+        continentCode = "NA",
+        continentName = "North America",
+        countryCode = "MX",
+        countryName = "Mexico",
+        mainCities = listOf(
+           "Reynosa", 
+    "Heroica Matamoros", 
+    "Nuevo Laredo", 
+    "Piedras Negras"
         ),
         rawOffsetInMinutes = -360,
         abbreviation = "CST"
@@ -534,23 +534,6 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         ),
         rawOffsetInMinutes = -360,
         abbreviation = "GALT"
-    ), 
-    IANATimezone(
-        name = "America/Chihuahua",
-        alternativeName = "Mexican Pacific Time",
-        group = listOf("America/Chihuahua", "America/Ojinaga"),
-        continentCode = "NA",
-        continentName = "North America",
-        countryCode = "MX",
-        countryName = "Mexico",
-        mainCities = listOf(
-           "Chihuahua", 
-    "Ciudad Delicias", 
-    "Cuauhtémoc", 
-    "Parral"
-        ),
-        rawOffsetInMinutes = -360,
-        abbreviation = "GMT-7"
     ), 
     IANATimezone(
         name = "America/Rio_Branco",

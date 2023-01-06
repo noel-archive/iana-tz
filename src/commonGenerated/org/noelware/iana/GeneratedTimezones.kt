@@ -3121,7 +3121,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Tallinn", 
     "Tartu", 
     "Narva", 
-    "Kohtla-Järve"
+    "Pärnu"
         ),
         rawOffsetInMinutes = 120,
         abbreviation = "EET"

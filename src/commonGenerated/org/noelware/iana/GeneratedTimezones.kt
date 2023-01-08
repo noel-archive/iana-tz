@@ -1973,6 +1973,23 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         abbreviation = "WET"
     ), 
     IANATimezone(
+        name = "Africa/Windhoek",
+        alternativeName = "Central Africa Time",
+        group = listOf("Africa/Windhoek"),
+        continentCode = "AF",
+        continentName = "Africa",
+        countryCode = "NA",
+        countryName = "Namibia",
+        mainCities = listOf(
+           "Windhoek", 
+    "Rundu", 
+    "Walvis Bay", 
+    "Oshakati"
+        ),
+        rawOffsetInMinutes = 60,
+        abbreviation = "CAT"
+    ), 
+    IANATimezone(
         name = "Africa/Algiers",
         alternativeName = "Central European Time",
         group = listOf("Africa/Algiers"),
@@ -2870,23 +2887,6 @@ public val TIMEZONES: List<IANATimezone> = listOf(
     "Matola", 
     "Nampula", 
     "Beira"
-        ),
-        rawOffsetInMinutes = 120,
-        abbreviation = "CAT"
-    ), 
-    IANATimezone(
-        name = "Africa/Windhoek",
-        alternativeName = "Central Africa Time",
-        group = listOf("Africa/Windhoek"),
-        continentCode = "AF",
-        continentName = "Africa",
-        countryCode = "NA",
-        countryName = "Namibia",
-        mainCities = listOf(
-           "Windhoek", 
-    "Rundu", 
-    "Walvis Bay", 
-    "Oshakati"
         ),
         rawOffsetInMinutes = 120,
         abbreviation = "CAT"

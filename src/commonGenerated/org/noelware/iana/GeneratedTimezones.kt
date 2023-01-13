@@ -3330,6 +3330,40 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         abbreviation = "AST"
     ), 
     IANATimezone(
+        name = "Asia/Amman",
+        alternativeName = "Asia/Amman",
+        group = listOf("Asia/Amman"),
+        continentCode = "AS",
+        continentName = "Asia",
+        countryCode = "JO",
+        countryName = "Jordan",
+        mainCities = listOf(
+           "Amman", 
+    "Zarqa", 
+    "Irbid", 
+    "Russeifa"
+        ),
+        rawOffsetInMinutes = 180,
+        abbreviation = "GMT+3"
+    ), 
+    IANATimezone(
+        name = "Asia/Damascus",
+        alternativeName = "Asia/Damascus",
+        group = listOf("Asia/Damascus"),
+        continentCode = "AS",
+        continentName = "Asia",
+        countryCode = "SY",
+        countryName = "Syria",
+        mainCities = listOf(
+           "Aleppo", 
+    "Damascus", 
+    "Homs", 
+    "Ḩamāh"
+        ),
+        rawOffsetInMinutes = 180,
+        abbreviation = "GMT+3"
+    ), 
+    IANATimezone(
         name = "Africa/Addis_Ababa",
         alternativeName = "East Africa Time",
         group = listOf("Africa/Addis_Ababa"),
@@ -3497,40 +3531,6 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         ),
         rawOffsetInMinutes = 180,
         abbreviation = "EAT"
-    ), 
-    IANATimezone(
-        name = "Asia/Damascus",
-        alternativeName = "Eastern European Time",
-        group = listOf("Asia/Damascus"),
-        continentCode = "AS",
-        continentName = "Asia",
-        countryCode = "SY",
-        countryName = "Syria",
-        mainCities = listOf(
-           "Aleppo", 
-    "Damascus", 
-    "Homs", 
-    "Ḩamāh"
-        ),
-        rawOffsetInMinutes = 180,
-        abbreviation = "EET"
-    ), 
-    IANATimezone(
-        name = "Asia/Amman",
-        alternativeName = "Eastern European Time",
-        group = listOf("Asia/Amman"),
-        continentCode = "AS",
-        continentName = "Asia",
-        countryCode = "JO",
-        countryName = "Jordan",
-        mainCities = listOf(
-           "Amman", 
-    "Zarqa", 
-    "Irbid", 
-    "Russeifa"
-        ),
-        rawOffsetInMinutes = 180,
-        abbreviation = "EET"
     ), 
     IANATimezone(
         name = "Europe/Minsk",

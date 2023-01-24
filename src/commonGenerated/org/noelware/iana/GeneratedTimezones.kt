@@ -3038,8 +3038,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Kyiv", 
     "Kharkiv", 
-    "Donetsk", 
-    "Odesa"
+    "Odesa", 
+    "Dnipro"
         ),
         rawOffsetInMinutes = 120,
         abbreviation = "EET"

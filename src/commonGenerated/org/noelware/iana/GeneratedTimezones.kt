@@ -2378,9 +2378,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "North Macedonia",
         mainCities = listOf(
            "Skopje", 
-    "Bitola", 
     "Kumanovo", 
-    "Prilep"
+    "Prilep", 
+    "Bitola"
         ),
         rawOffsetInMinutes = 60,
         abbreviation = "CET"

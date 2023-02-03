@@ -229,7 +229,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         abbreviation = "PST"
     ), 
     IANATimezone(
-        name = "America/Mazatlan",
+        name = "America/Hermosillo",
         alternativeName = "Mexican Pacific Time",
         group = listOf("America/Hermosillo", "America/Mazatlan", "Mexico/BajaSur"),
         continentCode = "NA",
@@ -237,10 +237,10 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryCode = "MX",
         countryName = "Mexico",
         mainCities = listOf(
-           "Culiacán", 
-    "Hermosillo", 
-    "Mazatlán", 
-    "Tepic"
+           "Hermosillo", 
+    "Culiacán", 
+    "Ciudad Obregón", 
+    "Mazatlán"
         ),
         rawOffsetInMinutes = -420,
         abbreviation = "GMT-7"
@@ -398,8 +398,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Mexico City", 
     "Iztapalapa", 
-    "Puebla", 
-    "Ecatepec de Morelos"
+    "León de los Aldama", 
+    "Puebla"
         ),
         rawOffsetInMinutes = -360,
         abbreviation = "CST"
@@ -2075,23 +2075,6 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         abbreviation = "CET"
     ), 
     IANATimezone(
-        name = "Europe/Malta",
-        alternativeName = "Central European Time",
-        group = listOf("Europe/Malta"),
-        continentCode = "EU",
-        continentName = "Europe",
-        countryCode = "MT",
-        countryName = "Malta",
-        mainCities = listOf(
-           "Birkirkara", 
-    "Qormi", 
-    "Mosta", 
-    "Żabbar"
-        ),
-        rawOffsetInMinutes = 60,
-        abbreviation = "CET"
-    ), 
-    IANATimezone(
         name = "Europe/Bratislava",
         alternativeName = "Central European Time",
         group = listOf("Europe/Bratislava"),
@@ -2347,6 +2330,23 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "San Marino",
         mainCities = listOf(
            "San Marino"
+        ),
+        rawOffsetInMinutes = 60,
+        abbreviation = "CET"
+    ), 
+    IANATimezone(
+        name = "Europe/Malta",
+        alternativeName = "Central European Time",
+        group = listOf("Europe/Malta"),
+        continentCode = "EU",
+        continentName = "Europe",
+        countryCode = "MT",
+        countryName = "Malta",
+        mainCities = listOf(
+           "San Pawl il-Baħar", 
+    "Birkirkara", 
+    "Mosta", 
+    "Sliema"
         ),
         rawOffsetInMinutes = 60,
         abbreviation = "CET"
@@ -3726,8 +3726,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Mauritius",
         mainCities = listOf(
            "Port Louis", 
-    "Beau Bassin-Rose Hill", 
     "Vacoas", 
+    "Beau Bassin-Rose Hill", 
     "Curepipe"
         ),
         rawOffsetInMinutes = 240,

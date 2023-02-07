@@ -4426,10 +4426,10 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryCode = "MY",
         countryName = "Malaysia",
         mainCities = listOf(
-           "Johor Bahru", 
-    "Kota Bharu", 
-    "Kuala Lumpur", 
-    "Petaling Jaya"
+           "Kuala Lumpur", 
+    "Petaling Jaya", 
+    "Klang", 
+    "Johor Bahru"
         ),
         rawOffsetInMinutes = 480,
         abbreviation = "MYT"

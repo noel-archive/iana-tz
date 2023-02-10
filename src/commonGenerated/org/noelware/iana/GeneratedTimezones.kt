@@ -264,6 +264,20 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         abbreviation = "MST"
     ), 
     IANATimezone(
+        name = "America/Ciudad_Juarez",
+        alternativeName = "Mountain Time",
+        group = listOf("America/Ciudad_Juarez"),
+        continentCode = "NA",
+        continentName = "North America",
+        countryCode = "MX",
+        countryName = "Mexico",
+        mainCities = listOf(
+           "Ciudad Juárez"
+        ),
+        rawOffsetInMinutes = -420,
+        abbreviation = "MST"
+    ), 
+    IANATimezone(
         name = "America/Denver",
         alternativeName = "Mountain Time",
         group = listOf("America/Boise", "America/Denver", "Navajo", "US/Mountain",
@@ -3254,9 +3268,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Iraq",
         mainCities = listOf(
            "Baghdad", 
-    "Basrah", 
     "Al Mawşil al Jadīdah", 
-    "Al Başrah al Qadīmah"
+    "Al Başrah al Qadīmah", 
+    "Mosul"
         ),
         rawOffsetInMinutes = 180,
         abbreviation = "AST"
@@ -4345,9 +4359,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Indonesia",
         mainCities = listOf(
            "Makassar", 
-    "Denpasar", 
     "Samarinda", 
-    "Banjarmasin"
+    "Denpasar", 
+    "Balikpapan"
         ),
         rawOffsetInMinutes = 480,
         abbreviation = "WITA"

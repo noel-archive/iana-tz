@@ -376,8 +376,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Guatemala",
         mainCities = listOf(
            "Guatemala City", 
-    "Mixco", 
     "Villa Nueva", 
+    "Mixco", 
     "Cobán"
         ),
         rawOffsetInMinutes = -360,
@@ -2134,7 +2134,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Budapest", 
     "Debrecen", 
     "Szeged", 
-    "Pécs"
+    "Miskolc"
         ),
         rawOffsetInMinutes = 60,
         abbreviation = "CET"

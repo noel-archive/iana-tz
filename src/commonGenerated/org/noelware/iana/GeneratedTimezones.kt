@@ -3689,9 +3689,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Georgia",
         mainCities = listOf(
            "Tbilisi", 
-    "Kutaisi", 
     "Batumi", 
-    "Sokhumi"
+    "Kutaisi", 
+    "Rustavi"
         ),
         rawOffsetInMinutes = 240,
         abbreviation = "GET"

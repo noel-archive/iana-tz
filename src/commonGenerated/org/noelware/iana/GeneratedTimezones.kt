@@ -3387,9 +3387,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Ethiopia",
         mainCities = listOf(
            "Addis Ababa", 
+    "Jijiga", 
     "Gondar", 
-    "Nazrēt", 
-    "Desē"
+    "Mek'ele"
         ),
         rawOffsetInMinutes = 180,
         abbreviation = "EAT"
@@ -4951,10 +4951,10 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryCode = "FJ",
         countryName = "Fiji",
         mainCities = listOf(
-           "Suva", 
+           "Nasinu", 
+    "Suva", 
     "Lautoka", 
-    "Nadi", 
-    "Labasa"
+    "Nadi"
         ),
         rawOffsetInMinutes = 720,
         abbreviation = "FJT"

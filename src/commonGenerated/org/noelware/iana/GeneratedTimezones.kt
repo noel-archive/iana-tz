@@ -3259,6 +3259,23 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         abbreviation = "AST"
     ), 
     IANATimezone(
+        name = "Asia/Bahrain",
+        alternativeName = "Arabian Time",
+        group = listOf("Asia/Bahrain"),
+        continentCode = "AS",
+        continentName = "Asia",
+        countryCode = "BH",
+        countryName = "Bahrain",
+        mainCities = listOf(
+           "Ar Rifā‘", 
+    "Manama", 
+    "Al Muharraq", 
+    "Dār Kulayb"
+        ),
+        rawOffsetInMinutes = 180,
+        abbreviation = "AST"
+    ), 
+    IANATimezone(
         name = "Asia/Baghdad",
         alternativeName = "Arabian Time",
         group = listOf("Asia/Baghdad"),
@@ -3305,23 +3322,6 @@ public val TIMEZONES: List<IANATimezone> = listOf(
     "Riyadh", 
     "Mecca", 
     "Medina"
-        ),
-        rawOffsetInMinutes = 180,
-        abbreviation = "AST"
-    ), 
-    IANATimezone(
-        name = "Asia/Bahrain",
-        alternativeName = "Arabian Time",
-        group = listOf("Asia/Bahrain"),
-        continentCode = "AS",
-        continentName = "Asia",
-        countryCode = "BH",
-        countryName = "Bahrain",
-        mainCities = listOf(
-           "Manama", 
-    "Al Muharraq", 
-    "Ar Rifā‘", 
-    "Dār Kulayb"
         ),
         rawOffsetInMinutes = 180,
         abbreviation = "AST"
@@ -3672,8 +3672,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Azerbaijan",
         mainCities = listOf(
            "Baku", 
-    "Ganja", 
     "Sumqayıt", 
+    "Ganja", 
     "Lankaran"
         ),
         rawOffsetInMinutes = 240,
@@ -4019,7 +4019,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Dhaka", 
     "Chattogram", 
     "Khulna", 
-    "Rājshāhi"
+    "Comilla"
         ),
         rawOffsetInMinutes = 360,
         abbreviation = "BST"
@@ -4325,9 +4325,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Australia",
         mainCities = listOf(
            "Perth", 
-    "Rockingham", 
     "Mandurah", 
-    "Bunbury"
+    "Bunbury", 
+    "Baldivis"
         ),
         rawOffsetInMinutes = 480,
         abbreviation = "AWST"

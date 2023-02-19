@@ -3557,8 +3557,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Minsk", 
     "Homyel'", 
-    "Mahilyow", 
-    "Vitebsk"
+    "Hrodna", 
+    "Mahilyow"
         ),
         rawOffsetInMinutes = 180,
         abbreviation = "MSK"
@@ -4019,7 +4019,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Dhaka", 
     "Chattogram", 
     "Khulna", 
-    "Comilla"
+    "Rangpur"
         ),
         rawOffsetInMinutes = 360,
         abbreviation = "BST"

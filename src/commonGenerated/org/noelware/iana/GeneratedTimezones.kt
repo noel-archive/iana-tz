@@ -2763,7 +2763,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Gaborone", 
     "Francistown", 
     "Molepolole", 
-    "Selebi-Phikwe"
+    "Maun"
         ),
         rawOffsetInMinutes = 120,
         abbreviation = "CAT"

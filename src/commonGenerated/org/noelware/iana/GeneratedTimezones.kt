@@ -1350,8 +1350,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "São Paulo", 
     "Rio de Janeiro", 
-    "Salvador", 
-    "Fortaleza"
+    "Belo Horizonte", 
+    "Salvador"
         ),
         rawOffsetInMinutes = -180,
         abbreviation = "BRT"

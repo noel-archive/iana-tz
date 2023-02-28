@@ -561,8 +561,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Rio Branco", 
     "Cruzeiro do Sul", 
-    "Sena Madureira", 
-    "Eirunepé"
+    "Senador Guiomard", 
+    "Sena Madureira"
         ),
         rawOffsetInMinutes = -300,
         abbreviation = "ACT"
@@ -1693,7 +1693,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Dublin", 
     "South Dublin", 
     "Cork", 
-    "Luimneach"
+    "Limerick"
         ),
         rawOffsetInMinutes = 0,
         abbreviation = "GMT"
@@ -1759,7 +1759,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "London", 
     "Birmingham", 
     "Liverpool", 
-    "Sheffield"
+    "Glasgow"
         ),
         rawOffsetInMinutes = 0,
         abbreviation = "GMT"
@@ -2880,9 +2880,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Zambia",
         mainCities = listOf(
            "Lusaka", 
-    "Kitwe", 
     "Ndola", 
-    "Kabwe"
+    "Kitwe", 
+    "Chipata"
         ),
         rawOffsetInMinutes = 120,
         abbreviation = "CAT"
@@ -3336,9 +3336,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Yemen",
         mainCities = listOf(
            "Sanaa", 
+    "Aden", 
     "Al Ḩudaydah", 
-    "Taiz", 
-    "Aden"
+    "Taiz"
         ),
         rawOffsetInMinutes = 180,
         abbreviation = "AST"
@@ -4034,9 +4034,9 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         countryName = "Bhutan",
         mainCities = listOf(
            "Thimphu", 
+    "Phuntsholing", 
     "Tsirang", 
-    "Punākha", 
-    "Phuntsholing"
+    "Punākha"
         ),
         rawOffsetInMinutes = 360,
         abbreviation = "BTT"

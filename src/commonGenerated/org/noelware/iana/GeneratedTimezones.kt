@@ -3622,8 +3622,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Istanbul", 
     "Ankara", 
-    "İzmir", 
-    "Bursa"
+    "Bursa", 
+    "İzmir"
         ),
         rawOffsetInMinutes = 180,
         abbreviation = "TRT"
@@ -3707,8 +3707,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Dubai", 
     "Sharjah", 
-    "Abu Dhabi", 
-    "Ajman City"
+    "Al Ain City", 
+    "Abu Dhabi"
         ),
         rawOffsetInMinutes = 240,
         abbreviation = "GST"

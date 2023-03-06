@@ -4224,7 +4224,7 @@ public val TIMEZONES: List<IANATimezone> = listOf(
            "Bangkok", 
     "Samut Prakan", 
     "Mueang Nonthaburi", 
-    "Udon Thani"
+    "Chon Buri"
         ),
         rawOffsetInMinutes = 420,
         abbreviation = "ICT"

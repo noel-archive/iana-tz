@@ -36,7 +36,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3")
     implementation("org.jetbrains.dokka:dokka-gradle-plugin:1.6.21")
     implementation("com.squareup.okhttp3:okhttp:4.9.3")
-    implementation("dev.floofy.commons:gradle:2.1.1")
+    implementation("dev.floofy.commons:gradle:2.5.1")
     implementation(kotlin("gradle-plugin", "1.7.0"))
     implementation("com.squareup:kotlinpoet:1.11.0")
 }

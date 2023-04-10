@@ -33,7 +33,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0")
     implementation("org.jetbrains.dokka:dokka-gradle-plugin:1.6.21")
     implementation("com.squareup.okhttp3:okhttp:4.9.3")
     implementation("dev.floofy.commons:gradle:2.1.1")

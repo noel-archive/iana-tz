@@ -1792,8 +1792,8 @@ public val TIMEZONES: List<IANATimezone> = listOf(
         mainCities = listOf(
            "Nouakchott", 
     "Nouadhibou", 
-    "Néma", 
-    "Kaédi"
+    "Dar Naim", 
+    "Néma"
         ),
         rawOffsetInMinutes = 0,
         abbreviation = "GMT"
